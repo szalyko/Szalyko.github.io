@@ -59,7 +59,6 @@ let data = {
     $('#photo-description').text(imagesData[photoNumber].description);
     $("div").removeClass("active")
     $(`#${photoNumber}`).addClass("active")
-    //$(`#${photoNumber}`).css("width", "100px");
   }
 
 loadPhoto(currentPhoto)
